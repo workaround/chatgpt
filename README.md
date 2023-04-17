@@ -1,35 +1,8 @@
-# TCL-CHAT-OPENAI
+# chatgpt.tcl for eggdrop
+A simple script that connects to OpenAI endpoint to answer questions.
 
-Use API chat OPENAI for IRC with eggdrop.
 He responds to all messages beginning with !openai
 ```
-User> !openai My question
-OpenChat> My response is ..
+<User> !openai what is the answer to life, the universe, and everything?
+<Eggdrop> The answer to life, the universe, and everything is 42.
 ```
-
-
-	Name		:
-		TCL-CHAT-OPENAI.tcl
-
-	Description	:
-		Use API chat OPENAI for IRC with eggdrop. He responds to all messages beginning with !openai
-
-		Utilisez le chat API OPENAI pour IRC avec eggdrop. Il répond à tous les messages commençant par !openai
-
-	Donation	:
-		https://github.com/ZarTek-Creole/DONATE
-
-	Auteur		:
-		ZarTek @ https://github.com/ZarTek-Creole
-
-	Website		:
-		https://github.com/ZarTek-Creole/TCL-CHAT-OPENAI
-
-	Support		:
-		https://github.com/ZarTek-Creole/TCL-CHAT-OPENAI/issues
-
-	Docs		:
-		https://github.com/ZarTek-Creole/TCL-CHAT-OPENAI/wiki
-
-	Thanks to	:
-		All donators, testers, repporters & contributors
