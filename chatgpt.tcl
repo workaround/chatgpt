@@ -38,9 +38,9 @@ proc openai {nick host hand chan text} {
   set payload "{\"model\": \"$model\", \"messages\": \[{\"role\": \"user\", \"content\": $prompt}\], \"temperature\": 0.7,\
                \"max_tokens\": 1000, \"top_p\": 1, \"frequency_penalty\": 0, \"presence_penalty\": 0}"
   # Set the headers for the HTTP request
-  set headers [list Content-Type "application/json" Authorization "Bearer $api_key"]
+  set headers [list Authorization "Bearer $api_key"]
   # Make the HTTP request
-  if {[catch {set response [http::data [http::geturl $endpoint -headers $headers -query $payload]]} error]} {
+  if {[catch {set response [http::data [http::geturl $endpoint -headers $headers -query $payload -type "application/json"]]} error]} {
     putlog "Error making HTTP request: $error"
     return
   }
