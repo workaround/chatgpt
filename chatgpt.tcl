@@ -1,5 +1,5 @@
 # chatgpt.tcl for eggdrop
-# Version: 0.1 - 17/04/2023
+# Version: 0.2 - 11/01/2024
 # Author: workaround <github.com/workaround>
 #
 # Description:
